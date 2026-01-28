@@ -29,7 +29,7 @@ let university ="K.R Mangalam";
 let program = "BCA AI/DS";
 console.log("My name is Sneha and im pursing"+""+program+"from"+university)
 console.log(`My name is Sneha and im pursing ${program} from ${university}`)
-
+//spread operator
 let arr=[1,2,3]
 let arr2=[4,5,6]
 let newrray =[...arr,...arr2];

@@ -55,18 +55,6 @@ let length = message.length;
 // let str = "JavaScript is fun!";
 // let sliced = str.slice(0, 10);
 
-//substring(start, end)
-let str = "JavaScript is amazing!";
-let sub = str.substring(11, 17);
-
-//indexOf()
-const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
-const indexOfFirst = paragraph.indexOf("dog");
-console.log(indexOfFirst);
-
-//substr(start, length)
-// let str = "OpenAI is innovative!";
-// let sub = str.substr(8, 2);
 
 //replace(search, replacement
 let sentence = "I love JavaScript. JavaScript is powerful.";
@@ -86,16 +74,13 @@ let firstName = "John";
 let lastName = "Doe";
 let fullName = firstName.concat(" ", lastName);
 
-//trim
-// let sentence = "   This is a sentence with spaces.   ";
-// let trimmed = sentence.trim();
 
 //charAt(index) and charCodeAt(index
 let word = "Hello";
 let char = word.charAt(1); 
 let charCode = word.charCodeAt(1);
 
-//split(separator
+//split(separator)
 // let sentence = "I,am,a,comma,separated,sentence";
 // let words = sentence.split(",")
 
