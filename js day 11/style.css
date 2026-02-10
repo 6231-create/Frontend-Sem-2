@@ -1,0 +1,22 @@
+#box {
+    width: 300px;
+    height: 150px;
+    background-color: tomato;
+    border-radius: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#link {
+    display: none;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+
+
