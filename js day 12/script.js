@@ -18,9 +18,11 @@ const output=document.getElementById("output");
 Form.addEventListener("submit",(event)=>{
     // to prevent the autorefresh
     event.preventDefault();   
+
     // console.log(event.target.value);
     const name = nameInput.value;
     const course = courseInput.value;
     console.log(name,course);
+
     output.textContent=name+course;
 })
